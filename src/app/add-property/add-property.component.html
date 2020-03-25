@@ -1,0 +1,107 @@
+<div class="bg-light p-t-100 p-b-50">
+    <div class="wrapper wrapper--w880 p-10">
+        <div class="card card-6">
+            <div class="row m-l-8">
+                Property1
+            </div>
+            <div class="row">
+                <div class="col-md-3 p-10">
+                    <div class="value p-l-0-10 ">
+                        <input class="input--style-6" type="text" placeholder="Property Name">
+                    </div>
+                </div>
+                <div class="col-md-2 p-10">
+                    <div class="value p-l-0-10">
+                        <input class="input--style-6" type="text" placeholder="City">
+                    </div>
+                </div>
+                <div class="col-md-2 p-10">
+                    <div class="value p-l-0-10">
+                        <input class="input--style-6" placeholder="zip code" type="text">
+                    </div>
+                </div>
+                <div class="col-md-2 p-10">
+                    <div class="value p-l-0-10">
+                        <input class="input--style-6" placeholder="Landmark" type="text">
+                    </div>
+                </div>
+                <div class="col-md-3 p-10">
+                    <div class="value p-l-0-10">
+                        <input class="input--style-6" placeholder="Tenant Name" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 p-10">
+                    <div class="value p-10">
+                        <input class="input--style-6" placeholder="Broker Name" type="text">
+                    </div>
+                </div>
+                <div class="col-md-3 p-10">
+                    <div class="value p-10">
+                        <p-calendar [showIcon]="true" placeholder="Start Date"></p-calendar>
+                    </div>
+                </div>
+                <div class="col-md-3 p-10">
+                    <div class="value p-10">
+                        <p-calendar [showIcon]="true" placeholder="End Date"></p-calendar>
+                    </div>
+                </div>
+                <div class="col-md-3 p-10">
+                    <div class="value p-10">
+                        <input class="input--style-6" placeholder="Rent Per Month" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 p-10">
+                    <div class="value p-10">
+                        <input class="input--style-6" placeholder="Disposit" type="text">
+                    </div>
+                </div>
+                <div class="col-md-3 p-10">
+                    <div class="value p-10">
+                        <input class="input--style-6" placeholder="Brokerage" type="text">
+                    </div>
+                </div>
+                <div class="col-md-3 p-10">
+                    <div class="value p-10">
+                        <p-fileUpload #fubauto mode="basic" name="demo[]" url="./upload.php" accept="image/*"
+                            maxFileSize="1000000" (onUpload)="onBasicUploadAuto($event)" [auto]="true"
+                            chooseLabel="upload Agreement copy"></p-fileUpload>
+                    </div>
+                </div>
+                <div class="col-md-3 p-10">
+                    <div class="value p-10">
+                        <input class="input--style-6" placeholder="Current Month" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-3 p-10">
+                    <div class="value p-10 p-l-10">
+                        <input class="input--style-6" placeholder="Receivied Amount" type="text">
+                    </div>
+                </div>
+                <div class="col-md-3 p-10">
+                    <div class="value p-10">
+                        <input class="input--style-6" placeholder="Pending Amount" type="text">
+                    </div>
+                </div>
+                <div class="col-md-3 p-10">
+                    <button pButton type="button" label="Send Reminder" class="ui-button-info btn-reminder"
+                        icon="fa fa-bell" iconPos="left">
+                    </button>
+                </div>
+                <div class="col-md-3 p-10">
+                    <button pButton type="button" label="Save" class="ui-button-info btn-save" icon="fa fa-save"
+                        iconPos="left"></button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

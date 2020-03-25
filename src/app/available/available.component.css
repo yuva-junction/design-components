@@ -1,0 +1,40 @@
+.input--style-6,
+.textarea--style-6 {
+  background: transparent;
+  line-height: 43px;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #666;
+  font-size: 15px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding: 0 15px;
+}
+.p-10{
+  padding: 10px;
+}
+.m-l-8{
+  margin-left: 8px;
+}
+.card-6 {
+  background: transparent;
+  padding: 10px;
+}
+.wrapper--w880{
+  max-width: 1425px !important;
+}
+.p-l-0-10{
+  padding: 10px 10px 10px 0px;
+}
+
+input{
+  width: 100% !important;
+}
+.cls-btns{
+  display:inline-flex; 
+  width:100%
+}
