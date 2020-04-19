@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {MessageService} from 'primeng/api';
 
 @Component({
   selector: 'app-add-property',
@@ -9,16 +10,12 @@ export class AddPropertyComponent implements OnInit {
   uploadedFiles: any[] = [];
 
 
-  constructor() { }
+  constructor(private messageService: MessageService) { }
 
   ngOnInit() {
   }
-
-  onUpload(event) {
-    for (let file of event.files) {
-      this.uploadedFiles.push(file);
-    }
-
-  }
+  onBasicUploadAuto(event) {
+    this.messageService.add({severity: 'info', summary: 'Success', detail: 'File Uploaded with Auto Mode'});
+}
 
 }

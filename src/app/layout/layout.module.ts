@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import {TabMenuModule} from 'primeng/tabmenu';
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
@@ -12,6 +11,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import {CardModule} from 'primeng/card';
+import {SelectButtonModule} from 'primeng/selectbutton';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -19,11 +20,13 @@ import {CardModule} from 'primeng/card';
   declarations: [LayoutComponent, DashboardComponent, HeaderComponent, FooterComponent],
   imports: [
     CommonModule,
+    FormsModule,
     ButtonModule,
     CardModule,
     LayoutRoutingModule,
     TabMenuModule,
     InputTextModule,
+    SelectButtonModule
   ]
 })
 export class LayoutModule { }

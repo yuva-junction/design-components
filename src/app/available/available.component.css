@@ -1,40 +1,131 @@
-.input--style-6,
-.textarea--style-6 {
-  background: transparent;
-  line-height: 43px;
-  border: 1px solid #cccccc;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  color: #666;
-  font-size: 15px;
-  -webkit-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  padding: 0 15px;
+.input-style{
+  width: 30%;
+  height: 5em;
+  border: 1px solid;
 }
-.p-10{
-  padding: 10px;
+.title-font-style{
+  text-align: center;
+  font-size: xx-large;
+  color: #7a7a7a;
+  font-weight: 400;
 }
-.m-l-8{
-  margin-left: 8px;
+.title1-font-style{
+  text-align: center;
+  font-size: 1.8em;
+  color: #1464f6;
+  font-weight: 400;
 }
-.card-6 {
-  background: transparent;
-  padding: 10px;
+.init-deal-btn{
+  background-color: #c96527 !important;
+  border: #c96527 !important;
 }
-.wrapper--w880{
-  max-width: 1425px !important;
-}
-.p-l-0-10{
-  padding: 10px 10px 10px 0px;
-}
-
-input{
-  width: 100% !important;
+.div-p-t2{
+ padding-top: 2.5%;
 }
 .cls-btns{
   display:inline-flex; 
   width:100%
+}
+.slecctbtn-div{
+  margin-top: 1%;
+  margin-left: 13%;
+}
+:host ::ng-deep .ui-steps .ui-steps-item{
+  width: 26%
+}
+:host ::ng-deep .ui-selectbutton .ui-button.ui-state-active {
+  background-color: #7a7a7a !important;
+  border-color: #7a7a7a !important;
+  color: #ffffff;
+}
+:host ::ng-deep .ui-selectbutton {
+  width: 40%;
+}
+:host ::ng-deep .ui-calendar {
+   display: inherit;
+}
+
+:host ::ng-deep .ui-calendar.ui-calendar-w-btn .ui-inputtext {
+  width: 27%;
+  height: 5em;
+}
+:host ::ng-deep .ui-calendar.ui-calendar-w-btn .ui-datepicker-trigger.ui-button {
+  width: 3.357em;
+  height: 5em;
+}
+:host ::ng-deep .ui-calendar.ui-calendar-w-btn .ui-datepicker-trigger.ui-button {
+  width: 3.357em;
+  height: 5em;
+}
+.radio-btn-margin{
+  margin-left: -20% !important;
+}
+:host ::ng-deep .ui-button-icon-only .ui-button-icon-left {
+   margin-left: -1em;
+   width: 2em;
+   height: 1em;
+   font-size: x-large;
+}
+#cal > span:last-child{
+  top:0px !important;
+}
+.small-lbl{
+  margin-left: -24%;
+  font-size: 0.9em;
+  color: #1464f6;
+  font-style: initial;
+  padding-bottom: 0.3%;
+}
+.lg-lbl{
+  margin-left: -19%;
+  font-size: larger;
+  color: #1464f6;
+  font-style: initial;
+  font-weight: 400;
+}
+:host ::ng-deep .ui-selectbutton .ui-button {
+  width: 50%;
+}
+
+::-webkit-input-placeholder { 
+  /* WebKit browsers */
+  color: gray;
+  padding-left: 1%;
+  opacity:  1;
+}
+
+@media screen and (max-width: 480px) {
+  .input-style{
+    width: 90%;
+    height: 3em;
+  }
+  .div-p-t2{
+    padding-top: 7%;
+   }
+   .radio-btn-margin{
+    margin-left: -67% !important;
+  }
+  .small-lbl{
+    margin-left: -67% !important;
+    padding-bottom: 1%;
+  }
+  .lg-lbl{
+    margin-left: -50% !important;
+  }
+   .title-font-style{
+    font-size: x-large;
+  }
+  .title1-font-style{
+    font-size: 1.5em;
+  }
+  .slecctbtn-div{
+    margin-top: 5%;
+  }
+  :host ::ng-deep .ui-calendar.ui-calendar-w-btn .ui-inputtext {
+    width: 77%;
+    height: 3.5em;
+  }
+  :host ::ng-deep .ui-calendar.ui-calendar-w-btn .ui-datepicker-trigger.ui-button {
+    height: 3.3em;
+  }
 }

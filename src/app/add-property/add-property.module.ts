@@ -6,7 +6,9 @@ import { AddPropertyComponent } from './add-property.component';
 import {FileUploadModule} from 'primeng/fileupload';
 import { HttpClientModule } from '@angular/common/http';
 import {CalendarModule} from 'primeng/calendar';
-
+import {MessagesModule} from 'primeng/messages';
+import {MessageModule} from 'primeng/message';
+import {MessageService} from 'primeng/api';
 
 @NgModule({
   declarations: [AddPropertyComponent],
@@ -14,8 +16,11 @@ import {CalendarModule} from 'primeng/calendar';
     HttpClientModule,
     CalendarModule,
     FileUploadModule,
+    MessagesModule,
+    MessageModule,
     CommonModule,
     AddPropertyRoutingModule
-  ]
+  ],
+  providers: [MessageService]
 })
 export class AddPropertyModule { }

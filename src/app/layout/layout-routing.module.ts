@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
+import { RootDashboardComponent } from '../root-dashboard/root-dashboard.component';
 
 
 const routes: Routes = [
@@ -9,12 +10,12 @@ const routes: Routes = [
     component:LayoutComponent,
     children:[
       {
-        path:'add-property',
-        loadChildren:() => import('../add-property/add-property.module').then(m=>m.AddPropertyModule)
+        path:'available', 
+        loadChildren:() => import('../available/available.module').then(m=>m.AvailableModule)
       },
       {
-        path:'available',
-        loadChildren:() => import('../available/available.module').then(m=>m.AvailableModule)
+        path:'add-property',
+        loadChildren:() => import('../add-property/add-property.module').then(m=>m.AddPropertyModule)
       }
     ]
   }

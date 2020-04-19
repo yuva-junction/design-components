@@ -1,11 +1,6 @@
-<nav class="navbar sticky-top navbar-dark bd-navbar">
-    <div>
-        <button type="button" class="f-color-whit" pButton label="Rented" (click)="loadAddProperty()"></button>
-    </div>
-    <div>
-        <button type="button" pButton class="f-color-whit" label="Available" (click)="loadAvailbale()"></button>
-    </div>
-    <div>
-        <button type="button" pButton class="f-color-whit" label="Service"></button>
-    </div>
-</nav>
+    <ul>
+        <li class=" manu-width"><a class="active" routerLink="available">Available</a></li> 
+        <li class=" manu-width" style="border-right:none;"><a routerLink="add-property">Rented</a></li>
+        <li class=" manu-width" style="border-left:none;"><a>Service</a></li>
+        <!-- <li><a href="#about">About</a></li> -->
+    </ul>

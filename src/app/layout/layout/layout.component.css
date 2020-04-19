@@ -1,6 +1,6 @@
 .bd-navbar {
-    min-height: 4rem;
-    background-color:#012b72;
+    min-height: 3rem;
+    background-color:#f7f7f7;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
 }
 .bd-navbar .navbar-nav .nav-link.active {
@@ -12,14 +12,24 @@
   font-size: 24px;
 }
 .btn-lgn{
-  background-color:#012b72 !important;
+/* background-color:#012b72 !important; */
  border: none !important;
  box-shadow: none !important;
  float: right !important;
+ zoom: 1.1;
 }
-.btn-hm{
- background-color:#012b72 !important;
- border: none !important;
- box-shadow: none !important;
- float: left !important;
+.btn-m-l{
+  margin-left: 80%;
+}
+.rpay-lbl{
+  color: #cd722d;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+  .btn-m-l{
+    margin-left: 27%;
+  }
+
 }

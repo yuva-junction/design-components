@@ -7,6 +7,10 @@ import { AvailableComponent } from './available.component';
 import {FileUploadModule} from 'primeng/fileupload';
 import { HttpClientModule } from '@angular/common/http';
 import {CalendarModule} from 'primeng/calendar';
+import {SelectButtonModule} from 'primeng/selectbutton';
+import { FormsModule } from '@angular/forms';
+import {StepsModule} from 'primeng/steps';
+import {RadioButtonModule} from 'primeng/radiobutton';
 
 
 @NgModule({
@@ -17,7 +21,11 @@ import {CalendarModule} from 'primeng/calendar';
     FileUploadModule,
     CommonModule,
     CommonModule,
-    AvailableRoutingModule
+    AvailableRoutingModule,
+    SelectButtonModule,
+    StepsModule,
+    FormsModule,
+    RadioButtonModule
   ]
 })
 export class AvailableModule { }

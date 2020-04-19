@@ -1,23 +1,22 @@
 <div id="container">
   <nav class="navbar sticky-top navbar-dark bd-navbar">
     <div>
-      <button pButton type="button" class="ui-button-info btn-hm">
-        <i class="fa fa-home" aria-hidden="true"></i>
-      </button>
+      <label class="rpay-lbl">RpayR</label>
     </div>
-    <div class="navbar-brand f-color-whit">Youvajunction</div>
+    <div class="navbar-brand f-color-whit"></div>
+    <div class="btn-m-l">
+      <button pButton type="button" label="Home" (click)="loadHome()"
+        class="ui-button-info btn-lgn"></button>
+    </div>
     <div>
-      <!-- <button pButton type="button" icon="fa fa-user" iconPos="left" label="Login/Sign up"
-        class="ui-button-info btn-lgn"></button> -->
-        <button pButton type="button" class="ui-button-info btn-lgn">
-        <i class="fa fa-user" aria-hidden="true"></i>
+      <button pButton type="button" class="ui-button-info btn-lgn" label="Profile">
       </button>
     </div>
   </nav>
-  <app-dashboard></app-dashboard>
+  <!-- <app-dashboard></app-dashboard> -->
   <app-header></app-header>
   <div id="content">
     <router-outlet></router-outlet>
   </div>
-  <app-footer></app-footer>
+  <!-- <app-footer></app-footer> -->
 </div>

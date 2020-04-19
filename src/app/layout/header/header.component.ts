@@ -8,10 +8,17 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  items3: MenuItem[];
+  types:{label: string; value: string; }[];
+  selectedType:string;
 
 
-  constructor(private router:Router) { }
+  constructor(private router:Router) {
+    this.types = [
+      {label: 'Apartment', value: 'Apartment'},
+      {label: 'House', value: 'House'},
+      {label: 'Studio', value: 'Studio'}
+  ];
+   }
 
   ngOnInit() {
 
@@ -20,13 +27,13 @@ export class HeaderComponent implements OnInit {
    * Method will navigate app to rented tab
   */
   loadAddProperty(){
-    this.router.navigate(['/add-property']);
+    this.router.navigate(['main/add-property']);
   }
 
    /**
    * Method will navigate app to availbale tab
   */
   loadAvailbale(){
-    this.router.navigate(['/available']);
+    this.router.navigate(['main/available']);
   }
 }

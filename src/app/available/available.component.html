@@ -1,117 +1,125 @@
-<div class="bg-light p-t-100 p-b-50">
-    <div class="wrapper wrapper--w880 p-10">
-        <div class="card card-6">
-            <div class="row m-l-8">
-                Property1
+<div>
+    <div class="slecctbtn-div">
+        <p-selectButton  [options]="types" [(ngModel)]="selectedType"></p-selectButton>
+    </div>
+    <div>
+        <p-steps [model]="items" [(activeIndex)]="activeIndex" [readonly]="true"></p-steps>
+    </div>
+    <div align="center">
+        <div>
+            <div class="title-font-style">
+               {{title1}}
             </div>
-            <div class="row">
-                <div class="col-md-3 p-10">
-                    <div class="value p-l-0-10 ">
-                        <input class="input--style-6" type="text" placeholder="Property Name">
-                    </div>
-                </div>
-                <div class="col-md-2 p-10">
-                    <div class="value p-l-0-10">
-                        <input class="input--style-6" type="text" placeholder="City">
-                    </div>
-                </div>
-                <div class="col-md-2 p-10">
-                    <div class="value p-l-0-10">
-                        <input class="input--style-6" placeholder="zip code" type="text">
-                    </div>
-                </div>
-                <div class="col-md-2 p-10">
-                    <div class="value p-l-0-10">
-                        <input class="input--style-6" placeholder="Landmark" type="text">
-                    </div>
-                </div>
-                <div class="col-md-3 p-10">
-                    <div class="value p-l-0-10">
-                        <input class="input--style-6" placeholder="Amenities" type="text">
-                    </div>
-                </div>
+            <div class="title1-font-style">
+               {{title2}}
             </div>
-            <div class="row">
-                <div class="col-md-3 p-10">
-                    <div class="value p-10">
-                        <!-- <input class="input--style-6" placeholder="Broker Name" type="text"> -->
-                    </div>
-                </div>
-                <div class="col-md-3 p-10">
-                    <div class="value p-10">
-                        <!-- <p-calendar [showIcon]="true" placeholder="Start Date"></p-calendar> -->
-                    </div>
-                </div>
-                <div class="col-md-3 p-10">
-                    <div class="value p-10">
-                        <!-- <p-calendar [showIcon]="true" placeholder="End Date"></p-calendar> -->
-                    </div>
-                </div>
-                <div class="col-md-3 p-10">
-                    <div class="value p-10">
-                        <!-- <input class="input--style-6" placeholder="Rent Per Month" type="text"> -->
-                    </div>
-                </div>
+            <hr>
+        </div>
+        <div  *ngIf="activeIndex==0">
+        <div>
+            <input class="input-style" type="text" placeholder="Property Name">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Zip Code">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" [disabled]="true" placeholder="City">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" [disabled]="true" type="text" placeholder="State">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Landmark">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Building/Area/Village Name">
+        </div>
+        <div class="div-p-t2"> 
+            <input class="input-style" type="text" placeholder="Street details">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Flat/House Name">
+        </div>
+      </div>
+      <div *ngIf="activeIndex==1">
+        <div>
+            Are you renting this property through broker? 
+            <div>
+                <p-radioButton name="group1" class="radio-btn-margin" value="Yes" label="Yes" [(ngModel)]="val1" inputId="opt1"></p-radioButton>
             </div>
-            <div class="row">
-                <div class="col-md-3 p-10">
-                    <div class="value p-10">
-                        <input class="input--style-6" placeholder="Tenant Name" type="text">
-                    </div>
-                </div>
-                <div class="col-md-2 p-10">
-                    <div class="value p-10">
-                        <input class="input--style-6" placeholder="Tenant Aadhar Number*" type="text">
-                    </div>
-                </div>
-                <div class="col-md-2 p-10">
-                    <div class="value p-10">
-                        <input class="input--style-6" placeholder="PAN Number*" type="text">
-                    </div>
-                </div>
-                <div class="col-md-2 p-10">
-                    <div class="value p-10">
-                        <input class="input--style-6" placeholder="Tenant Rental Score*" type="text">
-                    </div>
-                </div>
-                <div class="col-md-3 p-10">
-                    <div class="value p-10">
-                        <input class="input--style-6" placeholder="Tenant details*" type="text">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 p-10">
-                    <div class="value p-10 p-l-10">
-                        <!-- <input class="input--style-6" placeholder="Tenant Rental Score" type="text"> -->
-                    </div>
-                </div>
-                <div class="col-md-3 p-10">
-                    <div class="value p-10">
-                        <input class="input--style-6" placeholder="Broker Name" type="text">
-                    </div>
-                </div>
-                <div class="col-md-2 p-10">
-                    <p-calendar [showIcon]="true" placeholder="Start Date"></p-calendar>
-                </div>
-                <div class="col-md-2 p-10">
-                    <p-calendar [showIcon]="true" placeholder="End Date"></p-calendar>
-                </div>
-                <div class="col-md-1 p-10">
-                    <input class="input--style-6" placeholder="Rent Per Month" type="text">
-                </div>
-                <div class="col-md-1 p-10">
-                    <input class="input--style-6" placeholder="Deposit" type="text">
-                </div>
-            </div>
-            <div class="cls-btns">
-                <div class="w-50">
-                    <button style="width: auto !important;" pButton type="button" label="Initiate Deal" class="ui-button-info"></button>
-                </div>
-                <div class="w-50">
-                    <button style="width: auto !important;" pButton type="button" label="Initiate Deal" class="ui-button-info"></button>
-                </div>
+            <div>
+                <p-radioButton name="group1" class="radio-btn-margin" value="No" label="No" [(ngModel)]="val1" inputId="opt1"></p-radioButton>
             </div>
         </div>
-
-    </div>
+        <div class="div-p-t2">
+            <div class="small-lbl">
+                <u>Broker Detail</u>
+            </div>
+            <input class="input-style" type="text" placeholder="Broker Name">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Broker Mobile*">
+        </div>
+        <div class="div-p-t2">
+            <div class="small-lbl">
+                <u>Tenant Detail</u>
+            </div>
+            <input class="input-style" type="text" placeholder="Tenant Name">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Tenant Mobile*">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Tenant Aadhar*">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Tenant PAN Card*">
+        </div>
+        <div class="div-p-t2"> 
+            <input class="input-style" type="text" [disabled]="true" placeholder="Tenant Score">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Tenant Details">
+        </div>
+      </div>
+      <div *ngIf="activeIndex==2">
+        <div class="div-p-t2">
+            <div class="lg-lbl">
+                <u>Agreement Details</u>
+            </div> 
+            <!-- <p-calendar [showIcon]="true" inputStyleClass="input-style" id="cal" placeholder="Start Date"></p-calendar> -->
+        </div>
+        <div class="div-p-t2"> 
+            <p-calendar [showIcon]="true" inputStyleClass="input-style" id="cal" placeholder="Start Date"></p-calendar>
+        </div>
+        <div class="div-p-t2">
+            <p-calendar [showIcon]="true" nputStyleClass="input-style" placeholder="End Date"></p-calendar>
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Rent Per Mounth">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Deposit">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Brokerage">
+        </div>
+        <!-- <div class="div-p-t2"> 
+            <input class="input-style" type="text" [disabled]="true" placeholder="Tenant Score">
+        </div>
+        <div class="div-p-t2">
+            <input class="input-style" type="text" placeholder="Tenant Details">
+        </div> -->
+      </div>
+      <div class="div-p-t2" *ngIf="activeIndex== 0 || activeIndex== 1">
+        <button style="width: auto !important;" pButton type="button" label="continue" class="ui-button-info" (click)="chnageData()"></button>
+      </div>
+      <div class="div-p-t2" *ngIf="activeIndex==2">
+        <button style="width: auto !important;"  pButton type="button" label="Initiate Deal" class="ui-button-warning init-deal-btn"></button>
+      </div>
+        <div style="display: inline-flex;">
+            <a href="">back</a>
+            <a href="" style="padding-left: 20%">Exit</a>
+        </div>
+      </div>
+</div>
