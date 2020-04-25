@@ -104,12 +104,6 @@
         <div class="div-p-t2">
             <input class="input-style" type="text" placeholder="Brokerage">
         </div>
-        <!-- <div class="div-p-t2"> 
-            <input class="input-style" type="text" [disabled]="true" placeholder="Tenant Score">
-        </div>
-        <div class="div-p-t2">
-            <input class="input-style" type="text" placeholder="Tenant Details">
-        </div> -->
       </div>
       <div class="div-p-t2" *ngIf="activeIndex== 0 || activeIndex== 1">
         <button style="width: auto !important;" pButton type="button" label="continue" class="ui-button-info" (click)="chnageData()"></button>
@@ -119,7 +113,7 @@
       </div>
         <div style="display: inline-flex;">
             <a href="">back</a>
-            <a href="" style="padding-left: 20%">Exit</a>
+            <a routerLink="" style="padding-left: 20%">Exit</a>
         </div>
       </div>
 </div>

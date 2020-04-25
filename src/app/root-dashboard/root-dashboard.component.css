@@ -45,7 +45,7 @@
   }
   .w20{
     width: 20%;
-  }
+  } 
   .txt-center{
     text-align: center;
   }
@@ -62,6 +62,16 @@
     margin-top: 2% !important;
     margin:auto;
   }
+  .bottom-lbl-style{
+    background-color: white;
+    padding-top: 1%;
+    font-weight: 200;
+  }
+  .bottom-line{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   @media screen and (max-width: 480px) {
 
@@ -74,10 +84,6 @@
     .login-btn{
         margin: 4% 0% 0% 65%;
     }
-    /* .rpay-lbl{
-        padding-left: 33%;
-      } */
-
  .rent-pay-lbl{
     font-size: x-large;
     /* padding-left: 15%  */

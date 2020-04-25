@@ -27,13 +27,14 @@ export class HeaderComponent implements OnInit {
    * Method will navigate app to rented tab
   */
   loadAddProperty(){
-    this.router.navigate(['main/add-property']);
+    // this.router.navigate(['main/add-property']);
+    this.router.navigate(['add-property']);
   }
 
    /**
    * Method will navigate app to availbale tab
   */
   loadAvailbale(){
-    this.router.navigate(['main/available']);
+    this.router.navigate(['available']);
   }
 }

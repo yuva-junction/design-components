@@ -17,7 +17,8 @@ export class RootDashboardComponent implements OnInit {
    * Method will navigate app to rented tab
   */
  loadHome(){
-  this.router.navigate(['main']);
+  // this.router.navigate(['main']);
+  this.router.navigate(['login']);
 }
 
 }

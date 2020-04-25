@@ -12,14 +12,10 @@ const routes: Routes = [
     path:'main',
     loadChildren:()=> import('./layout/layout.module').then(m=>m.LayoutModule)
   },
-  // {
-  //   path:'available', 
-  //   loadChildren:() => import('./available/available.module').then(m=>m.AvailableModule)
-  //   },
-  //   {
-  //         path:'add-property',
-  //         loadChildren:() => import('./add-property/add-property.module').then(m=>m.AddPropertyModule)
-  //       }
+  {
+    path:'login',
+    loadChildren:()=> import('./login/login.module').then(m=>m.LoginModule)
+  },
 ];
 
 @NgModule({
