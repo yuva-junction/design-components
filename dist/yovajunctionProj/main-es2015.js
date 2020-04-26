@@ -32,7 +32,20 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n<router-outlet></router-outlet>");
+/* harmony default export */ __webpack_exports__["default"] = ("\r\n<router-outlet></router-outlet>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/root-dashboard/root-dashboard.component.html":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/root-dashboard/root-dashboard.component.html ***!
+  \****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"container\">\r\n    <nav class=\"navbar sticky-top navbar-dark bd-navbar\">\r\n        <a  routerLink=\"main\">Home</a>\r\n        <div class=\"w45\"></div>\r\n        <div class=\"heder-font heder-broder\">\r\n            Login\r\n        </div>\r\n        <div class=\"heder-font heder-broder\">\r\n            Profile\r\n        </div>\r\n        <div class=\"heder-font heder-broder\">\r\n            Payment\r\n        </div>\r\n        <div class=\"heder-font heder-broder\">\r\n            Payment\r\n        </div>\r\n        <div class=\"heder-font heder-broder\">\r\n            About\r\n        </div>\r\n        <div class=\"heder-font\">\r\n            Contact\r\n        </div>\r\n        <!-- </div> -->\r\n    </nav>\r\n    <div class=\"contr-bg-color\">\r\n        <!-- Hello -->\r\n        <button pButton class=\"login-btn\" type=\"button\" label=\"Login / Sign Up\" (click)=\"loadHome()\"></button>\r\n        <div class=\"txt-center\">\r\n            <label class=\"rpay-lbl\">RpayR</label>\r\n        </div>\r\n        <div class=\"txt-center\">\r\n            <label class=\"rent-pay-lbl\"> Rent Pay Rank</label>\r\n        </div>\r\n        <div class=\"txt-center\">\r\n            <label class=\"rent-pay-lbl\"> One Stop Solution for all your rental need </label>\r\n        </div>\r\n        <div class=\"txt-center\">\r\n            <label class=\"video-lbl\">Please watch the video to how the handdle the this website </label>\r\n        </div>\r\n    </div>\r\n    <div class=\"contr-bg-color\">\r\n        <video width=\"400\" height=\"250\" class=\"video-frame\" controls>\r\n            <source src=\"https://www.youtube.com/embed/9bZkp7q19f0\" type=\"video/mp4\">\r\n        </video>\r\n    </div>\r\n    <div style=\"background-color: white !important;\">\r\n      <div class=\"row card-row-margin\">\r\n          <div class=\"col-md-4\">\r\n            <p-card [style]=\"{width: '100%'}\"> \r\n                <div style=\"display: flex;\">\r\n                    <div><i class=\"pi pi-check\" style=\"font-size: 3em\"></i>\r\n                    </div>\r\n                    <div class=\"featur-lbl p-left-8\">Feature one</div>\r\n                </div>\r\n                <div class=\"p-18\">\r\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error\r\n                    repudiandae numquam deserunt\r\n                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate\r\n                    neque quas!\r\n                </div>\r\n            </p-card>\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n            <p-card [style]=\"{width: '100%'}\">\r\n                <div style=\"display: flex;\">\r\n                    <div><i class=\"pi pi-check\" style=\"font-size: 3em\"></i>\r\n                    </div>\r\n                    <div class=\"featur-lbl p-left-8\">Feature Two</div>\r\n                </div>\r\n                <div class=\"p-18\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error\r\n                    repudiandae numquam deserunt\r\n                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate\r\n                    neque quas!\r\n                </div>\r\n            </p-card>\r\n          </div>\r\n          <div class=\"col-md-4\">\r\n            <p-card [style]=\"{width: '100%'}\">\r\n                <div style=\"display: flex;\">\r\n                    <div><i class=\"pi pi-check\" style=\"font-size: 3em\"></i>\r\n                    </div>\r\n                    <div class=\"featur-lbl p-left-8\">Feature Three</div>\r\n                </div>\r\n                <div class=\"p-18\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error\r\n                    repudiandae numquam deserunt\r\n                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate\r\n                    neque quas!\r\n                </div>\r\n            </p-card>\r\n          </div>\r\n      </div>\r\n    </div>\r\n    <hr style=\"background-color: white !important;\">\r\n    <div class=\"txt-center\" style=\"background-color: white !important;\">\r\n        <label class=\"rent-pay-lbl\"> Track, Pay, Service your rental house </label>\r\n    </div>\r\n    <div class=\"txt-center\" style=\"background-color: white !important; padding-top: 3%;\">\r\n        <label> Track, Pay, Service your rental house fdsfd dfds dfds fdsgfd fdsfg ds fdsfds rew erew rew rw wrrewr w <br>\r\n            dsfdsfdsg fgfdg gffdgd gfh 8uritretoeiu yterutyertuerteuty itireitier tryty tytu rytr \r\n\r\n        </label>\r\n    </div>\r\n    <div style=\"background-color: white !important;\">\r\n        <hr>\r\n    </div>\r\n  \r\n    <nav class=\"navbar sticky-bottom navbar-dark bd-navbar\" style=\"background-color: white !important;\">\r\n        <div class=\"w20\"></div>\r\n        <div class=\"heder-font heder-broder\">\r\n            Login\r\n        </div>\r\n        <div class=\"heder-font heder-broder\">\r\n            Profile\r\n        </div>\r\n        <div class=\"heder-font heder-broder\">\r\n            Payment\r\n        </div>\r\n        <div class=\"heder-font heder-broder\">\r\n            Payment\r\n        </div>\r\n        <div class=\"heder-font heder-broder\">\r\n            About\r\n        </div>\r\n        <div class=\"heder-font\">\r\n            Contact\r\n        </div>\r\n        <div class=\"w20\"></div>\r\n        <!-- </div> -->\r\n    </nav>\r\n    <div align=\"center\" class=\"bottom-lbl-style\">\r\n        <div>\r\n            yuvajunction Services Pvt LTD\r\n            <div>\r\n                Mumbai, MH,India.\r\n            </div>\r\n            <hr class=\"bottom-line\">\r\n        </div>\r\n    </div>\r\n</div>");
 
 /***/ }),
 
@@ -297,14 +310,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _root_dashboard_root_dashboard_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./root-dashboard/root-dashboard.component */ "./src/app/root-dashboard/root-dashboard.component.ts");
+
 
 
 
 const routes = [
     {
         path: '',
-        loadChildren: () => __webpack_require__.e(/*! import() | layout-layout-module */ "layout-layout-module").then(__webpack_require__.bind(null, /*! ./layout/layout.module */ "./src/app/layout/layout.module.ts")).then(m => m.LayoutModule)
-    }
+        component: _root_dashboard_root_dashboard_component__WEBPACK_IMPORTED_MODULE_3__["RootDashboardComponent"],
+    },
+    {
+        path: 'main',
+        loadChildren: () => Promise.all(/*! import() | layout-layout-module */[__webpack_require__.e("default~layout-layout-module~login-login-module"), __webpack_require__.e("layout-layout-module")]).then(__webpack_require__.bind(null, /*! ./layout/layout.module */ "./src/app/layout/layout.module.ts")).then(m => m.LayoutModule)
+    },
+    {
+        path: 'login',
+        loadChildren: () => Promise.all(/*! import() | login-login-module */[__webpack_require__.e("default~layout-layout-module~login-login-module"), __webpack_require__.e("login-login-module")]).then(__webpack_require__.bind(null, /*! ./login/login.module */ "./src/app/login/login.module.ts")).then(m => m.LoginModule)
+    },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -376,9 +399,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! primeng/button */ "./node_modules/primeng/fesm2015/primeng-button.js");
+/* harmony import */ var primeng_lightbox__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! primeng/lightbox */ "./node_modules/primeng/fesm2015/primeng-lightbox.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _root_dashboard_root_dashboard_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./root-dashboard/root-dashboard.component */ "./src/app/root-dashboard/root-dashboard.component.ts");
+/* harmony import */ var primeng_card__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! primeng/card */ "./node_modules/primeng/fesm2015/primeng-card.js");
+
+
+
+
 
 
 
@@ -388,19 +419,81 @@ __webpack_require__.r(__webpack_exports__);
 let AppModule = class AppModule {
 };
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_5__["NgModule"])({
         declarations: [
-            _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]
+            _app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"],
+            _root_dashboard_root_dashboard_component__WEBPACK_IMPORTED_MODULE_8__["RootDashboardComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_2__["BrowserAnimationsModule"],
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"]
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_6__["AppRoutingModule"],
+            primeng_button__WEBPACK_IMPORTED_MODULE_3__["ButtonModule"],
+            primeng_lightbox__WEBPACK_IMPORTED_MODULE_4__["LightboxModule"],
+            primeng_card__WEBPACK_IMPORTED_MODULE_9__["CardModule"]
         ],
         providers: [],
-        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
+        bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/root-dashboard/root-dashboard.component.css":
+/*!*************************************************************!*\
+  !*** ./src/app/root-dashboard/root-dashboard.component.css ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".bd-navbar {\r\n    min-height: 3rem;\r\n    background-color:#f7f7f7;\r\n    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);\r\n}\r\n.vl {\r\n    border-left: 1px solid gray;\r\n    height: auto;\r\n  }\r\n.w45{\r\n      width: 45%;\r\n  }\r\n.heder-font{\r\n      font-weight: 200;\r\n  }\r\n.heder-broder{\r\n    border-right: 2.3px solid #c8c8c8;\r\n    padding-right: 2%;\r\n    line-height: 11px;\r\n  }\r\n.contr-bg-color{\r\n    background-color:#f7f7f7 !important;\r\n  }\r\n.login-btn{\r\n      margin: 2% 0% 0% 90%;\r\n  }\r\n.rpay-lbl{\r\n    color: #cd722d;\r\n    font-size: 3em;\r\n    font-weight: 600;\r\n  }\r\n.rent-pay-lbl{\r\n    font-size: 2.5em;\r\n    font-weight: 5;\r\n    color: dimgrey\r\n    /* padding-left: 23%  */\r\n  }\r\n.video-lbl{\r\n    margin-top: 5%;\r\n    font-weight: 100;\r\n  }\r\n.video-frame{\r\n    display: block; \r\n    margin: 0 auto;\r\n  }\r\n.w20{\r\n    width: 20%;\r\n  }\r\n.txt-center{\r\n    text-align: center;\r\n  }\r\n.featur-lbl{\r\n    font-size: x-large;\r\n  }\r\n.p-left-8{\r\n    padding-left: 4%;\r\n  }\r\n.p-18{\r\n    padding-left: 13%;\r\n  }\r\n.card-row-margin{\r\n    margin-top: 2% !important;\r\n    margin:auto;\r\n  }\r\n.bottom-lbl-style{\r\n    background-color: white;\r\n    padding-top: 1%;\r\n    font-weight: 200;\r\n  }\r\n.bottom-line{\r\n    width: 20%;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n@media screen and (max-width: 480px) {\r\n\r\n    .w45{\r\n        width: 0%;\r\n    }\r\n    .heder-font{\r\n        font-size: 14px;\r\n    }\r\n    .login-btn{\r\n        margin: 4% 0% 0% 65%;\r\n    }\r\n .rent-pay-lbl{\r\n    font-size: x-large;\r\n    /* padding-left: 15%  */\r\n  }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcm9vdC1kYXNoYm9hcmQvcm9vdC1kYXNoYm9hcmQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQix3QkFBd0I7SUFDeEIsd0VBQXdFO0FBQzVFO0FBQ0E7SUFDSSwyQkFBMkI7SUFDM0IsWUFBWTtFQUNkO0FBQ0E7TUFDSSxVQUFVO0VBQ2Q7QUFDQTtNQUNJLGdCQUFnQjtFQUNwQjtBQUNBO0lBQ0UsaUNBQWlDO0lBQ2pDLGlCQUFpQjtJQUNqQixpQkFBaUI7RUFDbkI7QUFDQTtJQUNFLG1DQUFtQztFQUNyQztBQUNBO01BQ0ksb0JBQW9CO0VBQ3hCO0FBQ0E7SUFDRSxjQUFjO0lBQ2QsY0FBYztJQUNkLGdCQUFnQjtFQUNsQjtBQUNBO0lBQ0UsZ0JBQWdCO0lBQ2hCLGNBQWM7SUFDZCxhQUFhO0lBQ2IsdUJBQXVCO0VBQ3pCO0FBQ0E7SUFDRSxjQUFjO0lBQ2QsZ0JBQWdCO0VBQ2xCO0FBQ0E7SUFDRSxjQUFjO0lBQ2QsY0FBYztFQUNoQjtBQUNBO0lBQ0UsVUFBVTtFQUNaO0FBQ0E7SUFDRSxrQkFBa0I7RUFDcEI7QUFDQTtJQUNFLGtCQUFrQjtFQUNwQjtBQUNBO0lBQ0UsZ0JBQWdCO0VBQ2xCO0FBQ0E7SUFDRSxpQkFBaUI7RUFDbkI7QUFDQTtJQUNFLHlCQUF5QjtJQUN6QixXQUFXO0VBQ2I7QUFDQTtJQUNFLHVCQUF1QjtJQUN2QixlQUFlO0lBQ2YsZ0JBQWdCO0VBQ2xCO0FBQ0E7SUFDRSxVQUFVO0lBQ1YsaUJBQWlCO0lBQ2pCLGtCQUFrQjtFQUNwQjtBQUVBOztJQUVFO1FBQ0ksU0FBUztJQUNiO0lBQ0E7UUFDSSxlQUFlO0lBQ25CO0lBQ0E7UUFDSSxvQkFBb0I7SUFDeEI7Q0FDSDtJQUNHLGtCQUFrQjtJQUNsQix1QkFBdUI7RUFDekI7QUFDRiIsImZpbGUiOiJzcmMvYXBwL3Jvb3QtZGFzaGJvYXJkL3Jvb3QtZGFzaGJvYXJkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYmQtbmF2YmFyIHtcclxuICAgIG1pbi1oZWlnaHQ6IDNyZW07XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiNmN2Y3Zjc7XHJcbiAgICBib3gtc2hhZG93OiAwIDAuNXJlbSAxcmVtIHJnYmEoMCwwLDAsLjA1KSwgaW5zZXQgMCAtMXB4IDAgcmdiYSgwLDAsMCwuMSk7XHJcbn1cclxuLnZsIHtcclxuICAgIGJvcmRlci1sZWZ0OiAxcHggc29saWQgZ3JheTtcclxuICAgIGhlaWdodDogYXV0bztcclxuICB9XHJcbiAgLnc0NXtcclxuICAgICAgd2lkdGg6IDQ1JTtcclxuICB9XHJcbiAgLmhlZGVyLWZvbnR7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiAyMDA7XHJcbiAgfVxyXG4gIC5oZWRlci1icm9kZXJ7XHJcbiAgICBib3JkZXItcmlnaHQ6IDIuM3B4IHNvbGlkICNjOGM4Yzg7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OiAyJTtcclxuICAgIGxpbmUtaGVpZ2h0OiAxMXB4O1xyXG4gIH1cclxuICAuY29udHItYmctY29sb3J7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiNmN2Y3ZjcgIWltcG9ydGFudDtcclxuICB9XHJcbiAgLmxvZ2luLWJ0bntcclxuICAgICAgbWFyZ2luOiAyJSAwJSAwJSA5MCU7XHJcbiAgfVxyXG4gIC5ycGF5LWxibHtcclxuICAgIGNvbG9yOiAjY2Q3MjJkO1xyXG4gICAgZm9udC1zaXplOiAzZW07XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG4gIH1cclxuICAucmVudC1wYXktbGJse1xyXG4gICAgZm9udC1zaXplOiAyLjVlbTtcclxuICAgIGZvbnQtd2VpZ2h0OiA1O1xyXG4gICAgY29sb3I6IGRpbWdyZXlcclxuICAgIC8qIHBhZGRpbmctbGVmdDogMjMlICAqL1xyXG4gIH1cclxuICAudmlkZW8tbGJse1xyXG4gICAgbWFyZ2luLXRvcDogNSU7XHJcbiAgICBmb250LXdlaWdodDogMTAwO1xyXG4gIH1cclxuICAudmlkZW8tZnJhbWV7XHJcbiAgICBkaXNwbGF5OiBibG9jazsgXHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuICB9XHJcbiAgLncyMHtcclxuICAgIHdpZHRoOiAyMCU7XHJcbiAgfSBcclxuICAudHh0LWNlbnRlcntcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB9XHJcbiAgLmZlYXR1ci1sYmx7XHJcbiAgICBmb250LXNpemU6IHgtbGFyZ2U7XHJcbiAgfVxyXG4gIC5wLWxlZnQtOHtcclxuICAgIHBhZGRpbmctbGVmdDogNCU7XHJcbiAgfVxyXG4gIC5wLTE4e1xyXG4gICAgcGFkZGluZy1sZWZ0OiAxMyU7XHJcbiAgfVxyXG4gIC5jYXJkLXJvdy1tYXJnaW57XHJcbiAgICBtYXJnaW4tdG9wOiAyJSAhaW1wb3J0YW50O1xyXG4gICAgbWFyZ2luOmF1dG87XHJcbiAgfVxyXG4gIC5ib3R0b20tbGJsLXN0eWxle1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBwYWRkaW5nLXRvcDogMSU7XHJcbiAgICBmb250LXdlaWdodDogMjAwO1xyXG4gIH1cclxuICAuYm90dG9tLWxpbmV7XHJcbiAgICB3aWR0aDogMjAlO1xyXG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XHJcbiAgfVxyXG5cclxuICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0ODBweCkge1xyXG5cclxuICAgIC53NDV7XHJcbiAgICAgICAgd2lkdGg6IDAlO1xyXG4gICAgfVxyXG4gICAgLmhlZGVyLWZvbnR7XHJcbiAgICAgICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgfVxyXG4gICAgLmxvZ2luLWJ0bntcclxuICAgICAgICBtYXJnaW46IDQlIDAlIDAlIDY1JTtcclxuICAgIH1cclxuIC5yZW50LXBheS1sYmx7XHJcbiAgICBmb250LXNpemU6IHgtbGFyZ2U7XHJcbiAgICAvKiBwYWRkaW5nLWxlZnQ6IDE1JSAgKi9cclxuICB9XHJcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/root-dashboard/root-dashboard.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/root-dashboard/root-dashboard.component.ts ***!
+  \************************************************************/
+/*! exports provided: RootDashboardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RootDashboardComponent", function() { return RootDashboardComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
+
+let RootDashboardComponent = class RootDashboardComponent {
+    constructor(router) {
+        this.router = router;
+    }
+    ngOnInit() {
+    }
+    /**
+     * Method will navigate app to rented tab
+    */
+    loadHome() {
+        // this.router.navigate(['main']);
+        this.router.navigate(['login']);
+    }
+};
+RootDashboardComponent.ctorParameters = () => [
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }
+];
+RootDashboardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-root-dashboard',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./root-dashboard.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/root-dashboard/root-dashboard.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./root-dashboard.component.css */ "./src/app/root-dashboard/root-dashboard.component.css")).default]
+    })
+], RootDashboardComponent);
 
 
 
@@ -471,7 +564,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Atul\projects\workspace\design-components\design-components\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Atul\projects\workspace\design-components\src\main.ts */"./src/main.ts");
 
 
 /***/ })
